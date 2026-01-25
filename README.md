@@ -39,12 +39,12 @@ Dynamic Programming
 📂 Repository Structure
 DSA-Python/
 ├── Arrays/
-│   ├─  array.py
-│   └── .py
+│ ├─ array.py
+│ └── .py
 │
 ├── BASIC-MATH/
-│   ├── count_digits.py
-│   └── reverse_number.py
+│ ├── count_digits.py
+│ └── reverse_number.py
 │
 ├── README.md
 
