@@ -1,5 +1,5 @@
 def checkgcd(a , b):
-  while a>b and b>a:
+  while a != 0 and b != 0:
     if a>b:
       a %= b
     else:
@@ -10,3 +10,6 @@ def checkgcd(a , b):
     print(a)
     
 checkgcd(20,40)
+
+
+# this is eucliden alg based approch
