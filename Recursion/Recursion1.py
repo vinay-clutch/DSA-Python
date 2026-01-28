@@ -12,6 +12,7 @@ checkgcd(12,23)
 
 
 """
+
 def checkgcd(a,b):
   if b == 0:
     return a
