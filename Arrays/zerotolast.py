@@ -36,6 +36,8 @@ def pushZerosToEnd(arr):
         if arr[i] != 0:
             arr[i], arr[count] = arr[count], arr[i]
             count += 1
+            
+pushZerostoEnd([12,23,0,34,0,44,0])
 
 '''
 

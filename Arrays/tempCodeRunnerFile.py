@@ -1,12 +1,9 @@
-def secondndlarge(arr):
-  max = 0 
-  min = 0
-  for i in range(len(arr)):
-    if arr[i]>max:
-      min = max
-      max = arr[i]
-    elif arr[i]>min and arr[i]!=max:
-      min = arr[i]
-  return min
+def pushZerosToEnd(arr):
+    count = 0
 
-print(secondndlarge([3, 7, 1, 9, 2]))
+    for i in range(len(arr)):
+        if arr[i] != 0:
+            arr[i], arr[count] = arr[count], arr[i]
+            count += 1
+            
+print(pushZerostoEnd([12,23,0,34,0,44,0]))
