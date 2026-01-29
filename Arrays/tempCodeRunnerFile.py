@@ -1,18 +1,12 @@
-def print2ndlargest(arr):
-  n = len(arr)
-  if n<2:
-    return -1
-  
-  first = second = float('-inf')
-  for num in arr:
-    if num > first:
-      second = first
-      first = num
-    elif num > second and num != first:
-      second = num
-    if second == float('-inf'):
-      return -1
-    else:
-      return second
-    
-print(print2ndlargest([12,212,23,34,434]))
+def secondndlarge(arr):
+  max = 0 
+  min = 0
+  for i in range(len(arr)):
+    if arr[i]>max:
+      min = max
+      max = arr[i]
+    elif arr[i]>min and arr[i]!=max:
+      min = arr[i]
+  return min
+
+print(secondndlarge([3, 7, 1, 9, 2]))
